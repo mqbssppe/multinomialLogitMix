@@ -1,0 +1,28 @@
+dealWithLabelSwitching
+                        Post-process the generated MCMC sample in order
+                        to undo possible label switching.
+expected_complete_LL    Expected complete LL
+gibbs_mala_sampler      The core of the Hybrid Gibbs/MALA MCMC sampler
+                        for the multinomial logit mixture.
+gibbs_mala_sampler_ppt
+                        Prior parallel tempering scheme of hybrid
+                        Gibbs/MALA MCMC samplers for the multinomial
+                        logit mixture.
+log_dirichlet_pdf       Log-density function of the Dirichlet
+                        distribution
+mala_proposal           Proposal mechanism of the MALA step.
+mixLoglikelihood_GLM    Log-likelihood of the multinomial logit.
+mix_mnm_logistic        EM algorithm
+multinomialLogitMix     Main function
+multinomialLogitMix-package
+                        Clustering Multinomial Count Data under the
+                        Presence of Covariates
+multinomial_logistic_EM
+                        Part of the EM algorithm for multinomial logit
+                        mixture
+myDirichlet             Simulate from the Dirichlet distribution
+newton_raphson_mstep    M-step of the EM algorithm
+shakeEM_GLM             Shake-small EM
+simulate_multinomial_data
+                        Synthetic data generator
+splitEM_GLM             Split-small EM scheme.

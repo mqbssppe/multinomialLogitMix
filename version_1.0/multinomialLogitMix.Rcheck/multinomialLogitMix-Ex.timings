@@ -1,0 +1,6 @@
+name	user	system	elapsed
+dealWithLabelSwitching	0	0	0	
+gibbs_mala_sampler	0.005	0.000	0.005	
+gibbs_mala_sampler_ppt	0.044	0.027	0.045	
+mix_mnm_logistic	0.052	0.000	0.052	
+multinomialLogitMix	35.482	 6.173	21.875	
