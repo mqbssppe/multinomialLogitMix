@@ -1,4 +1,5 @@
-library(multinomialLogitMix)
+library("multinomialLogitMix")
+library("coda")
 set.seed(727)
 
 # generate a synthetic dataset 
