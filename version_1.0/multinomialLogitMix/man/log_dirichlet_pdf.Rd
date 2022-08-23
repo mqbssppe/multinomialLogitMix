@@ -19,7 +19,7 @@ Vector of weights.
 }
 }
 \value{
-Log-density of the \eqn{D(alpha_1,\ldots,\alpha_k)} evaluated at \eqn{w_1,\ldots,w_k}.
+Log-density of the \eqn{D(\alpha_1,\ldots,\alpha_k)} evaluated at \eqn{w_1,\ldots,w_k}.
 }
 \author{
 Panagiotis Papastamoulis

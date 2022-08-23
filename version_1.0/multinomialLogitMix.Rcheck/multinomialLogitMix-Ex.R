@@ -18,26 +18,6 @@ library('multinomialLogitMix')
 base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
 cleanEx()
-nameEx("dealWithLabelSwitching")
-### * dealWithLabelSwitching
-
-flush(stderr()); flush(stdout())
-
-base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-### Name: dealWithLabelSwitching
-### Title: Post-process the generated MCMC sample in order to undo possible
-###   label switching.
-### Aliases: dealWithLabelSwitching
-
-### ** Examples
-
-1+1
-
-
-
-base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
-base::cat("dealWithLabelSwitching", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
-cleanEx()
 nameEx("gibbs_mala_sampler")
 ### * gibbs_mala_sampler
 

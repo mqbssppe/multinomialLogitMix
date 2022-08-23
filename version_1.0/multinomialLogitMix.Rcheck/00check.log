@@ -1,4 +1,4 @@
-* using log directory ‘/myspace/Dropbox/multinomial_mixture/package/version_1.0/multinomialLogitMix.Rcheck’
+* using log directory ‘/home/panos/Dropbox/multinomial_mixture/package/version_1.0/multinomialLogitMix.Rcheck’
 * using R version 4.2.1 (2022-06-23)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -10,6 +10,12 @@
 Maintainer: ‘Panagiotis Papastamoulis <papapast@yahoo.gr>’
 
 New submission
+
+Found the following (possibly) invalid DOIs:
+  DOI: 10.1111/j.1467-9868.2011.00781.x
+    From: DESCRIPTION
+    Status: Service Unavailable
+    Message: 503
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK

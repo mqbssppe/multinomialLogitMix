@@ -37,27 +37,6 @@ Type 'q()' to quit R.
 > base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 > base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
 > cleanEx()
-> nameEx("dealWithLabelSwitching")
-> ### * dealWithLabelSwitching
-> 
-> flush(stderr()); flush(stdout())
-> 
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: dealWithLabelSwitching
-> ### Title: Post-process the generated MCMC sample in order to undo possible
-> ###   label switching.
-> ### Aliases: dealWithLabelSwitching
-> 
-> ### ** Examples
-> 
-> 1+1
-[1] 2
-> 
-> 
-> 
-> base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
-> base::cat("dealWithLabelSwitching", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
-> cleanEx()
 > nameEx("gibbs_mala_sampler")
 > ### * gibbs_mala_sampler
 > 
@@ -146,8 +125,8 @@ Warning in par(oldpar) : calling par(new=TRUE) with no plot
 > #sampled values for the number of clusters (non-empty mixture components) per chain (columns)
 > mcmc_random1$nClusters
      [,1] [,2]
-[1,]    1    2
-[2,]    1    2
+[1,]    1    1
+[2,]    2    1
 > 
 > 
 > 
@@ -290,7 +269,9 @@ $logLikelihood
 Running EM for K = 1 
      Log-likelihood: -3597.13               
 SPLIT Small EM initialization for K = 2... log-likelihood = -215.14 
-SHAKE Small EM initialization for K = 2...RANDOM Small EM initialization for K = 2... log-likelihood = -215.14 
+SHAKE Small EM initialization for K = 2...shake aborted 
+RANDOM Small EM initialization for K = 2...random starts accepted 
+ log-likelihood = -215.14 
 Running EM for K = 2 
      Log-likelihood at starting value: -215.14 
      Iteration: 2, Log-likelihood: -215.14               
@@ -301,7 +282,7 @@ Running EM for K = 3
      Log-likelihood at starting value: -210.41 
      Iteration: 2, Log-likelihood: -210.41               
 
-SPLIT Small EM initialization for K = 4... log-likelihood = -208.48 
+SPLIT Small EM initialization for K = 4... log-likelihood = -208.38 
 SHAKE Small EM initialization for K = 4...RANDOM Small EM initialization for K = 4... log-likelihood = -208.35 
 Running EM for K = 4 
      Log-likelihood at starting value: -208.35 
@@ -318,23 +299,12 @@ Running EM for K = 4
      Iteration: 12, Log-likelihood: -208.35               
      Iteration: 13, Log-likelihood: -208.35               
      Iteration: 14, Log-likelihood: -208.35               
-     Iteration: 15, Log-likelihood: -208.35               
 
-SPLIT Small EM initialization for K = 5... log-likelihood = -208.15 
+SPLIT Small EM initialization for K = 5... log-likelihood = -208.09 
 SHAKE Small EM initialization for K = 5...RANDOM Small EM initialization for K = 5... log-likelihood = -208.05 
 Running EM for K = 5 
      Log-likelihood at starting value: -208.05 
      Iteration: 2, Log-likelihood: -208.05               
-     Iteration: 3, Log-likelihood: -208.05               
-     Iteration: 4, Log-likelihood: -208.05               
-     Iteration: 5, Log-likelihood: -208.05               
-     Iteration: 6, Log-likelihood: -208.05               
-     Iteration: 7, Log-likelihood: -208.05               
-     Iteration: 8, Log-likelihood: -208.05               
-     Iteration: 9, Log-likelihood: -208.05               
-     Iteration: 10, Log-likelihood: -208.05               
-     Iteration: 11, Log-likelihood: -208.05               
-     Iteration: 12, Log-likelihood: -208.05               
 
 
 According to ICL-BIC, the estimated number of components is K = 2. 
@@ -345,18 +315,18 @@ OK
 tau = 0.0002835 
 tau = 0.0002835 
 
- 2  4 
- 9 11 
-tau = 0.0002835, proposal AR = 45%, mh_ar = 75%. 
+ 1  5 
+11  9 
+tau = 0.0002835, proposal AR = 15%, mh_ar = 69%. 
 
- 1  2 
- 9 11 
-tau = 0.0002835, proposal AR = 35%, mh_ar = 74%. 
+ 1  5 
+11  9 
+tau = 0.0002835, proposal AR = 55%, mh_ar = 75.5%. 
 
     ......................................................................................
     . Method                         Time (sec)           Status                         . 
     ......................................................................................
-    . ECR                            0.019                OK                             . 
+    . ECR                            0.018                OK                             . 
     ......................................................................................
 
     Relabelling all methods according to method ECR ... done!
@@ -371,7 +341,7 @@ tau = 0.0002835, proposal AR = 35%, mh_ar = 74%.
  [1] 2 1 2 1 2 2 1 2 1 2 1 1 1 2 1 2 2 1 2 2
 > 	# retrieve clustering according to MCMC
 > 	mlm$MCMC_post_processed$cluster	
- [1] 2 1 2 1 2 2 1 2 1 2 1 1 1 2 1 2 2 1 2 2
+ [1] 1 2 1 2 1 1 2 1 2 1 2 2 2 1 2 1 1 2 1 1
 > 	
 > ## End(No test)
 > 
@@ -384,7 +354,7 @@ tau = 0.0002835, proposal AR = 35%, mh_ar = 74%.
 > cleanEx()
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  2.943 0.959 22.706 33.342 5.269 
+Time elapsed:  1.957 0.886 15.954 23.432 4.009 
 > grDevices::dev.off()
 null device 
           1 

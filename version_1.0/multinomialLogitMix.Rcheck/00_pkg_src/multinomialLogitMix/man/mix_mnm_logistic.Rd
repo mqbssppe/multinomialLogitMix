@@ -72,7 +72,7 @@ this should be set to 5.
 \item{estimated_clustering}{Single best-clustering of the data, according to the MAP rule.}
 }
 \references{
-Papastamoulis P (2022). Model-based clustering of multinomial count data. 
+Papastamoulis P (2022). Model-based clustering of multinomial count data.  arXiv:2207.13984 [stat.ME]
 }
 \author{
 Panagiotis Papastamoulis

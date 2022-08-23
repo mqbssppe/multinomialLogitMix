@@ -54,7 +54,7 @@ mcmc_parameters <- list(tau = 0.00035, nu2 = 100, mcmc_cycles = 2600,
 \item{MCMC_post_processed}{Post-processed MCMC, used for the inference.}
 }
 \references{
-Papastamoulis, P (2022). Model-based clustering of multinomial count data. 
+Papastamoulis, P. (2022). Model-based clustering of replicated multinomial data. arXiv:2207.13984 [stat.ME]
 }
 \author{
 Panagiotis Papastamoulis

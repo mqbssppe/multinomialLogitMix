@@ -44,7 +44,4 @@ Papastamoulis, P. (2016). \code{label.switching}: An R Package for Dealing with 
 \author{
 Panagiotis Papastamoulis
 }
-\examples{
-1+1
-}
 

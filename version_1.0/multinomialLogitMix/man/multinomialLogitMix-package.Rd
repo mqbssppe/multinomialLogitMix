@@ -20,7 +20,7 @@ See the main function of the package: \code{\link{multinomialLogitMix}}, which w
 Maintainer: \packageMaintainer{multinomialLogitMix}
 }
 \references{
-Papastamoulis, P. (2022). Model-based clustering of replicated multinomial data. 
+Papastamoulis, P. (2022). Model-based clustering of replicated multinomial data. arXiv:2207.13984 [stat.ME]
 
 Papastamoulis, P. and Iliopoulos, G. (2010). An Artificial Allocations Based Solution to the Label Switching Problem in Bayesian Analysis of Mixtures of Distributions. Journal of Computational and Graphical Statistics, 19(2), 313-331. http://www.jstor.org/stable/25703571
 

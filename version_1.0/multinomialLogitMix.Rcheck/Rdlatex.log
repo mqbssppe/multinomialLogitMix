@@ -1,13 +1,14 @@
 Hmm ... looks like a package
 Converting parsed Rd's to LaTeX .
 Creating pdf output from LaTeX ...
-
+Warning in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  :
+  texi2dvi script/program not available, using emulation
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
+(./Rd2.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
-(./Rd2.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo))
@@ -72,172 +73,109 @@ No file Rd2.aux.
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd) [1{/var/lib/texmf/fon
-ts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2492.4717pt too wide) in alignment at lines 65--65
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
+Overfull \hbox (64.95648pt too wide) in paragraph at lines 39--40
+\T1/ptm/m/n/10 mix-tures of multi-no-mial logit mod-els, as im-ple-mented in Pa
+-pas-ta-moulis (2022) <DOI:10.48550/arXiv.2207.13984>.
+
+Overfull \hbox (45.74573pt too wide) in paragraph at lines 39--40
+\T1/ptm/m/n/10 Classes Rep-re-sen-ta-tives (ECR) al-go-rithm, as de-scribed in 
+Pa-pas-ta-moulis (2016) <DOI:10.18637/jss.v069.c01>. 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (4115.54678pt too wide) in alignment at lines 65--65
  [] [] 
 [2]
+Overfull \hbox (0.50693pt too wide) in paragraph at lines 109--110
+[]\T1/ptm/m/n/10 Papastamoulis, P. (2022). Model-based clus-ter-ing of repli-ca
+ted multi-no-mial data. arXiv:2207.13984
+[3]
 Overfull \hbox (33.06992pt too wide) in paragraph at lines 130--130
  []\T1/zi4/m/n/10 dealWithLabelSwitching(gs, burn, thin = 10, zPivot = NULL, re
 turnRaw = FALSE, maxM = NULL) 
-[3] [4] [5] [6] [7] [8]
-Overfull \hbox (0.75328pt too wide) in paragraph at lines 467--467
+[4] [5] [6] [7] [8]
+Overfull \hbox (0.75328pt too wide) in paragraph at lines 461--461
  []\T1/zi4/m/n/9 mcmc_random1 <-  gibbs_mala_sampler_ppt( y = simData$count_dat
 a, X = simData$design_matrix,[] 
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
-Overfull \hbox (5.24408pt too wide) in paragraph at lines 474--474
+Overfull \hbox (5.24408pt too wide) in paragraph at lines 468--468
  []\T1/zi4/m/n/9 #sampled values for the number of clusters (non-empty mixture 
 components) per chain (columns)[] 
-[9] [10] [11] [12] [13] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-) (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd) [14] [15] [16]
-[17] [18] [19]
-No file Rd2.ind.
-[20] (/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.aux)
-
-Package rerunfilecheck Warning: File `Rd2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
- )
-(see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/inconsolata/i4-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
-enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sftt0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
-elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (20 pages, 157955 bytes).
-Transcript written on Rd2.log.
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
-(./Rd2.tex
-(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo))
-(/usr/share/R/share/texmf/tex/latex/Rd.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
-`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex)))))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-
-Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 388.
-
-
-Package hyperref Warning: Option `pagebackref' has already been used,
-(hyperref)                setting the option has no effect on input line 388.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
-Writing index file Rd2.idx
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.aux)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.out)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.out)
-(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.toc [1{/var/lib/texmf/fonts/map/pdftex/
-updmap/pdftex.map}])
-Overfull \hbox (2492.4717pt too wide) in alignment at lines 65--65
- [] [] 
-[2] [3]
-Overfull \hbox (33.06992pt too wide) in paragraph at lines 130--130
- []\T1/zi4/m/n/10 dealWithLabelSwitching(gs, burn, thin = 10, zPivot = NULL, re
-turnRaw = FALSE, maxM = NULL) 
-[4] [5] [6] [7] [8]
-Overfull \hbox (0.75328pt too wide) in paragraph at lines 467--467
- []\T1/zi4/m/n/9 mcmc_random1 <-  gibbs_mala_sampler_ppt( y = simData$count_dat
-a, X = simData$design_matrix,[] 
-[9] (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
-Overfull \hbox (5.24408pt too wide) in paragraph at lines 474--474
- []\T1/zi4/m/n/9 #sampled values for the number of clusters (non-empty mixture 
-components) per chain (columns)[] 
-[10] [11] [12] [13] [14]
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+[9] [10] [11] [12] [13]
+Overfull \hbox (0.50693pt too wide) in paragraph at lines 778--779
+[]\T1/ptm/m/n/10 Papastamoulis, P. (2022). Model-based clus-ter-ing of repli-ca
+ted multi-no-mial data. arXiv:2207.13984
+[14] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd) [15] [16] [17]
 [18] [19]
 No file Rd2.ind.
-[20] (/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.aux) )
-(see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/inconsolata/i4-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
-enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sftt0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
-elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (20 pages, 159992 bytes).
+[20] (./Rd2.aux)
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 tctt0900
+mktexpk: Running mf-nowin -progname=mf \mode:=ljfour; mag:=1+0/600; nonstopmode; input tctt0900
+This is METAFONT, Version 2.7182818 (TeX Live 2019/Debian) (preloaded base=mf)
+
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/tctt0900.mf
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/exbase.mf)
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/tctt.mf
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/txsymb.mf
+ Ok (/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/exaccess.mf
+ Ok) (/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/txpseudo.mf
+ Ok) (/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/txaccent.mf
+ Ok [0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [27] [29])
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/txgen.mf
+ Ok [100] [109] [98] [99] [108])
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/txsymbol.mf
+ Ok [13] [18] [21] [22] [23] [24] [25] [26] [28] [31] [32] [36] [39] [44]
+[45] [46] [42] [47] [60] [61] [62] [77] [79] [87] [110] [91] [93] [94] [95]
+[96] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
+[150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161]
+[162] [163] [164] [165] [166] [167] [168] [169] [171] [172] [173] [174]
+[175] [177] [176] [180] [181] [182] [183] [184] [187] [191] [214] [246])
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/txromod.mf
+ Ok [48] [49] [50] [51] [52] [53] [54] [55] [56] [57])
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/txrsuper.mf
+ Ok [185] [178] [179] [170] [186])
+(/usr/share/texlive/texmf-dist/fonts/source/jknappen/ec/txrfract.mf
+ Ok [188] [189] [190]) ) ) )
+Font metrics written on tctt0900.tfm.
+Output written on tctt0900.600gf (128 characters, 17564 bytes).
+Transcript written on tctt0900.log.
+mktexpk: /home/panos/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0900.600pk: successfully generated.
+
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information) </home/panos/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0900.600pk>{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsol
+ata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/I
+nconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+
+Output written on Rd2.pdf (20 pages, 142552 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (28 entries accepted, 0 rejected).
-Sorting entries....done (139 comparisons).
-Generating output file Rd2.ind....done (54 lines written, 1 warning).
+Sorting entries....done (138 comparisons).
+Generating output file Rd2.ind....done (54 lines written, 0 warnings).
 Output written in Rd2.ind.
 Transcript written in Rd2.ilg.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
+(./Rd2.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
-(./Rd2.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo))
@@ -294,42 +232,56 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
 Writing index file Rd2.idx
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.aux)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(./Rd2.aux) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.out)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.out)
+(./Rd2.out) (./Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.toc [1{/var/lib/texmf/fonts/map/pdftex/
-updmap/pdftex.map}])
-Overfull \hbox (2492.4717pt too wide) in alignment at lines 65--65
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc [1{/var/li
+b/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+Overfull \hbox (64.95648pt too wide) in paragraph at lines 39--40
+\T1/ptm/m/n/10 mix-tures of multi-no-mial logit mod-els, as im-ple-mented in Pa
+-pas-ta-moulis (2022) <DOI:10.48550/arXiv.2207.13984>.
+
+Overfull \hbox (45.74573pt too wide) in paragraph at lines 39--40
+\T1/ptm/m/n/10 Classes Rep-re-sen-ta-tives (ECR) al-go-rithm, as de-scribed in 
+Pa-pas-ta-moulis (2016) <DOI:10.18637/jss.v069.c01>. 
+
+Overfull \hbox (4115.54678pt too wide) in alignment at lines 65--65
  [] [] 
-[2] [3]
+
+Overfull \vbox (10.42131pt too high) has occurred while \output is active
+[2]
+Overfull \hbox (0.50693pt too wide) in paragraph at lines 109--110
+[]\T1/ptm/m/n/10 Papastamoulis, P. (2022). Model-based clus-ter-ing of repli-ca
+ted multi-no-mial data. arXiv:2207.13984
+[3]
 Overfull \hbox (33.06992pt too wide) in paragraph at lines 130--130
  []\T1/zi4/m/n/10 dealWithLabelSwitching(gs, burn, thin = 10, zPivot = NULL, re
 turnRaw = FALSE, maxM = NULL) 
 [4] [5] [6] [7] [8]
-Overfull \hbox (0.75328pt too wide) in paragraph at lines 467--467
+Overfull \hbox (0.75328pt too wide) in paragraph at lines 461--461
  []\T1/zi4/m/n/9 mcmc_random1 <-  gibbs_mala_sampler_ppt( y = simData$count_dat
 a, X = simData$design_matrix,[] 
 [9] (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
-Overfull \hbox (5.24408pt too wide) in paragraph at lines 474--474
+Overfull \hbox (5.24408pt too wide) in paragraph at lines 468--468
  []\T1/zi4/m/n/9 #sampled values for the number of clusters (non-empty mixture 
 components) per chain (columns)[] 
-[10] [11] [12] [13] [14]
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+[10] [11] [12] [13]
+Overfull \hbox (0.50693pt too wide) in paragraph at lines 778--779
+[]\T1/ptm/m/n/10 Papastamoulis, P. (2022). Model-based clus-ter-ing of repli-ca
+ted multi-no-mial data. arXiv:2207.13984
+[14] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd) [15] [16] [17]
-[18] [19] (/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.ind [20]
+[18] [19] (./Rd2.ind [20]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[21]) (/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.aux)
+[21]) (./Rd2.aux)
 
 Package rerunfilecheck Warning: File `Rd2.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -339,22 +291,21 @@ Package rerunfilecheck Warning: File `Rd2.out' has changed.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  )
-(see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/inconsolata/i4-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
-enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sftt0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (21 pages, 170507 bytes).
+(see the transcript file for additional information) </home/panos/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0900.600pk>{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsol
+ata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/I
+nconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (21 pages, 154958 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (28 entries accepted, 0 rejected).
@@ -365,9 +316,9 @@ Transcript written in Rd2.ilg.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
+(./Rd2.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
-(./Rd2.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo))
@@ -424,63 +375,74 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
 Writing index file Rd2.idx
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.aux)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(./Rd2.aux) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.out)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.out)
+(./Rd2.out) (./Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.toc [1{/var/lib/texmf/fonts/map/pdftex/
-updmap/pdftex.map}])
-Overfull \hbox (2492.4717pt too wide) in alignment at lines 65--65
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc [1{/var/li
+b/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+Overfull \hbox (64.95648pt too wide) in paragraph at lines 39--40
+\T1/ptm/m/n/10 mix-tures of multi-no-mial logit mod-els, as im-ple-mented in Pa
+-pas-ta-moulis (2022) <DOI:10.48550/arXiv.2207.13984>.
+
+Overfull \hbox (45.74573pt too wide) in paragraph at lines 39--40
+\T1/ptm/m/n/10 Classes Rep-re-sen-ta-tives (ECR) al-go-rithm, as de-scribed in 
+Pa-pas-ta-moulis (2016) <DOI:10.18637/jss.v069.c01>. 
+
+Overfull \hbox (4115.54678pt too wide) in alignment at lines 65--65
  [] [] 
-[2] [3]
+[2]
+Overfull \hbox (0.50693pt too wide) in paragraph at lines 109--110
+[]\T1/ptm/m/n/10 Papastamoulis, P. (2022). Model-based clus-ter-ing of repli-ca
+ted multi-no-mial data. arXiv:2207.13984
+[3]
 Overfull \hbox (33.06992pt too wide) in paragraph at lines 130--130
  []\T1/zi4/m/n/10 dealWithLabelSwitching(gs, burn, thin = 10, zPivot = NULL, re
 turnRaw = FALSE, maxM = NULL) 
 [4] [5] [6] [7] [8]
-Overfull \hbox (0.75328pt too wide) in paragraph at lines 467--467
+Overfull \hbox (0.75328pt too wide) in paragraph at lines 461--461
  []\T1/zi4/m/n/9 mcmc_random1 <-  gibbs_mala_sampler_ppt( y = simData$count_dat
 a, X = simData$design_matrix,[] 
 [9] (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd)
-Overfull \hbox (5.24408pt too wide) in paragraph at lines 474--474
+Overfull \hbox (5.24408pt too wide) in paragraph at lines 468--468
  []\T1/zi4/m/n/9 #sampled values for the number of clusters (non-empty mixture 
 components) per chain (columns)[] 
-[10] [11] [12] [13] [14]
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+[10] [11] [12] [13]
+Overfull \hbox (0.50693pt too wide) in paragraph at lines 778--779
+[]\T1/ptm/m/n/10 Papastamoulis, P. (2022). Model-based clus-ter-ing of repli-ca
+ted multi-no-mial data. arXiv:2207.13984
+[14] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd) [15] [16] [17]
-[18] [19] (/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.ind [20]
+[18] [19] (./Rd2.ind [20]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[21]) (/tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4/Rd2.aux)
+[21]) (./Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  )
-(see the transcript file for additional information){/usr/share/texmf/fonts/enc
-/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/inconsolata/i4-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
-enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sftt0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (21 pages, 170609 bytes).
+(see the transcript file for additional information) </home/panos/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0900.600pk>{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsol
+ata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/I
+nconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (21 pages, 155221 bytes).
 Transcript written on Rd2.log.
 Saving output to ‘multinomialLogitMix-manual.pdf’ ...
 Done
-You may want to clean up by 'rm -Rf /tmp/RtmpwJ5OOX/Rd2pdf78331e8aabe4'
+You may want to clean up by 'rm -Rf /tmp/RtmpjtD4hR/Rd2pdf390427b3116d'

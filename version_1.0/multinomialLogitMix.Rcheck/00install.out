@@ -1,10 +1,10 @@
 * installing *source* package ‘multinomialLogitMix’ ...
 ** using staged installation
 ** libs
-g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG  -I'/home/panagiotis/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/usr/local/lib/R/site-library/RcppArmadillo/include'   -fopenmp  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-asoVQd/r-base-4.2.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
-g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG  -I'/home/panagiotis/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/usr/local/lib/R/site-library/RcppArmadillo/include'   -fopenmp  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-asoVQd/r-base-4.2.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c multinomialLogitMix.cpp -o multinomialLogitMix.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG  -I'/home/panos/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/panos/R/x86_64-pc-linux-gnu-library/4.2/RcppArmadillo/include'   -fopenmp  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-zYgbYq/r-base-4.2.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG  -I'/home/panos/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/panos/R/x86_64-pc-linux-gnu-library/4.2/RcppArmadillo/include'   -fopenmp  -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-zYgbYq/r-base-4.2.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c multinomialLogitMix.cpp -o multinomialLogitMix.o
 g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o multinomialLogitMix.so RcppExports.o multinomialLogitMix.o -fopenmp -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /myspace/Dropbox/multinomial_mixture/package/version_1.0/multinomialLogitMix.Rcheck/00LOCK-multinomialLogitMix/00new/multinomialLogitMix/libs
+installing to /home/panos/Dropbox/multinomial_mixture/package/version_1.0/multinomialLogitMix.Rcheck/00LOCK-multinomialLogitMix/00new/multinomialLogitMix/libs
 ** R
 ** byte-compile and prepare package for lazy loading
 ** help
