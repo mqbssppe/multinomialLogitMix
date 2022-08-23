@@ -1,4 +1,4 @@
-# multinomialLogitMix: clustering multinomial counts with or without covariates
+# multinomialLogitMix: Clustering Multinomial Count Data under the Presence of Covariates
 
 Pre-print: 
 
@@ -7,4 +7,8 @@ Papastamoulis, P (2022). Model based clustering of multinomial count data. [arXi
 
 ## News and Updates
 
-### [July, 2022] Version 1.0 of the package available in Github
+### [August, 2022] Version 1.0 of the package available on [CRAN](https://CRAN.R-project.org/package=multinomialLogitMix)
+
+
+
+### [July, 2022] Version 1.0 of the package available on Github
